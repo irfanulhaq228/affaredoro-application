@@ -1,0 +1,6 @@
+framework module Pods_affaredoro {
+  umbrella header "Pods-affaredoro-umbrella.h"
+
+  export *
+  module * { export * }
+}

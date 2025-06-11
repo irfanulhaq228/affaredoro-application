@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "310039757931",
+    "project_id": "affare-doro",
+    "storage_bucket": "affare-doro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310039757931:android:925e67c9e9f1dac0155d2e",
+        "android_client_info": {
+          "package_name": "com.affaredoro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310039757931-usbkrdbg49l7nu2avb8jn51p5t4ls0st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.affaredoro",
+            "certificate_hash": "f722a77ae73f4a590a92a6947e63e5d3cfa291e1"
+          }
+        },
+        {
+          "client_id": "310039757931-lg37ahr39sug3npf8ok1omcg93pbh5si.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgiYsVy6KFS6x0Ohdsuw1QKulmxXD1abc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310039757931-lg37ahr39sug3npf8ok1omcg93pbh5si.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+framework module Pods_affaredoro_affaredoroTests {
+  umbrella header "Pods-affaredoro-affaredoroTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
