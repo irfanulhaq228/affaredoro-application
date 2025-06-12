@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, ScrollView, Image, TouchableWithoutFeedback, Mo
 import React, { useEffect, useState } from 'react';
 import { COLORS, SIZES, illustrations } from '../constants';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import FingerprintScanner from 'react-native-fingerprint-scanner';
 import Header from '../components/Header';
 import Button from '../components/Button';
 import { useTheme } from '../theme/ThemeProvider';
@@ -26,15 +25,7 @@ const Fingerprint = () => {
 
   const checkFingerprintStatus = async () => {
     try {
-      const isAvailable = await FingerprintScanner.isSensorAvailable();
-console.log(isAvailable);
-
-      if (isAvailable) {
-        setIsFingerprintEnabled(true);
-        setModalVisible(true)
-      } else {
         setIsFingerprintEnabled(false);
-      }
     } catch (error) {
       console.error('Error checking fingerprint status:', error);
     }

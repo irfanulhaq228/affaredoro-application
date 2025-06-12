@@ -1357,8 +1357,6 @@ PODS:
     - FBSDKGamingServicesKit (~> 18.0)
     - FBSDKShareKit (~> 18.0)
     - React-Core
-  - react-native-fingerprint-scanner (6.0.0):
-    - React
   - react-native-get-random-values (1.11.0):
     - React-Core
   - react-native-image-picker (7.2.3):
@@ -1960,7 +1958,6 @@ DEPENDENCIES:
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
   - react-native-fbsdk-next (from `../node_modules/react-native-fbsdk-next`)
-  - react-native-fingerprint-scanner (from `../node_modules/react-native-fingerprint-scanner`)
   - react-native-get-random-values (from `../node_modules/react-native-get-random-values`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
   - react-native-keyboard-controller (from `../node_modules/react-native-keyboard-controller`)
@@ -2123,8 +2120,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
   react-native-fbsdk-next:
     :path: "../node_modules/react-native-fbsdk-next"
-  react-native-fingerprint-scanner:
-    :path: "../node_modules/react-native-fingerprint-scanner"
   react-native-get-random-values:
     :path: "../node_modules/react-native-get-random-values"
   react-native-image-picker:
@@ -2284,7 +2279,6 @@ SPEC CHECKSUMS:
   React-Mapbuffer: b2642edd9be75d51ead8cda109c986665eae09cf
   React-microtasksnativemodule: 94f7e35c4984282f04f946fb1be1d008aff4bdf0
   react-native-fbsdk-next: 52f81e60eb3e8e0e06cf9728b4572d3509ca9d01
-  react-native-fingerprint-scanner: 91bf6825709dd7bd3abc4588a4772eb097a2b2d8
   react-native-get-random-values: d16467cf726c618e9c7a8c3c39c31faa2244bbba
   react-native-image-picker: f6c567fff4d306238ceed0c1f28e1c2c63992d3c
   react-native-keyboard-controller: e43d679e022f3d4135d8d089831e036cb248910e

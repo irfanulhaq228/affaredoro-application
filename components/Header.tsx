@@ -6,7 +6,7 @@ import { useTheme } from '../theme/ThemeProvider';
 
 interface HeaderProps {
     title: string;
-    navigation: any;
+    navigation?: any;
 }
 
 const Header: React.FC<HeaderProps> = ({ title, navigation }) => {
