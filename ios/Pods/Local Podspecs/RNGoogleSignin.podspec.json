@@ -17,6 +17,8 @@
     "GoogleSignIn": [
       "~> 7.1"
     ],
-    "React-Core": []
+    "React-Core": [
+
+    ]
   }
 }

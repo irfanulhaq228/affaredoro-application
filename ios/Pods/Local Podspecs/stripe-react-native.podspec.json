@@ -15,7 +15,9 @@
   "source_files": "ios/**/*.{h,m,mm,swift}",
   "exclude_files": "ios/Tests/",
   "dependencies": {
-    "React-Core": [],
+    "React-Core": [
+
+    ],
     "Stripe": [
       "~> 24.7.0"
     ],

@@ -45,12 +45,18 @@
         "React-logger": [
           "0.75.4"
         ],
-        "DoubleConversion": [],
+        "DoubleConversion": [
+
+        ],
         "fmt": [
           "9.1.0"
         ],
-        "glog": [],
-        "hermes-engine": []
+        "glog": [
+
+        ],
+        "hermes-engine": [
+
+        ]
       },
       "subspecs": [
         {
@@ -59,7 +65,9 @@
             "React-jsi": [
               "0.75.4"
             ],
-            "hermes-engine": []
+            "hermes-engine": [
+
+            ]
           },
           "source_files": "react/bridging/**/*.{cpp,h}",
           "exclude_files": "react/bridging/tests",

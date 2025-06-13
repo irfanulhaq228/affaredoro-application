@@ -23,7 +23,9 @@
   "module_name": "React_performancetimeline",
   "header_mappings_dir": "../../..",
   "dependencies": {
-    "React-cxxreact": [],
+    "React-cxxreact": [
+
+    ],
     "RCT-Folly": [
       "2024.01.01.00"
     ]

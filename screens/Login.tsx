@@ -100,7 +100,7 @@ const Login = ({ navigation }: { navigation: any }) => {
         .then((response) => response.text())
         .then((result) => {
           const resp = JSON.parse(result);
-
+          console.log("----", resp);
           if (resp.status === "ok") {
             storedata(resp.data, resp?.token, true);
             navigation?.replace("(tabs)");

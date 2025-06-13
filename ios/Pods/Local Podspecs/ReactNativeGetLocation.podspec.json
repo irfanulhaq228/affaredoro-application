@@ -24,6 +24,8 @@
   ],
   "source_files": "ios/ReactNativeGetLocationLibrary/**/*.{h,m}",
   "dependencies": {
-    "React-Core": []
+    "React-Core": [
+
+    ]
   }
 }

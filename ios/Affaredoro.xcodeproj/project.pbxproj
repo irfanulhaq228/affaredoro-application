@@ -17,8 +17,8 @@
 		260E8012D3064212BA01CCB8 /* Urbanist BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 812983FE06874B94BE9C078B /* Urbanist BoldItalic.ttf */; };
 		2715C5252DF9E16600705A2C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2715C5242DF9E16600705A2C /* UserNotifications.framework */; };
 		27A76EE82DF8C2C100E1BBB5 /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 274DA9822DF888300061DDA2 /* GoogleService-Info.plist */; };
-		27AB04822DFB1D640018162B /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 27AB04812DFB1D580018162B /* main.jsbundle */; };
 		27AB04842DFB25B20018162B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AB04832DFB25B20018162B /* Security.framework */; };
+		27C1BC922DFC0F8700D9FA40 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 27C1BC912DFC0F8000D9FA40 /* main.jsbundle */; };
 		349F2B3837674F408E08CA12 /* Urbanist SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A8752A22BDE4C2386D489B0 /* Urbanist SemiBoldItalic.ttf */; };
 		3A987DA5F75806005317E849 /* Pods_affaredoro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F101F8BE27703B9D4A5F069D /* Pods_affaredoro.framework */; };
 		44A120B4BA5141539B19871A /* Urbanist BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C592AD15E44DF69D73E592 /* Urbanist BlackItalic.ttf */; };
@@ -68,8 +68,8 @@
 		2715C5232DF9DC3100705A2C /* affaredoro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = affaredoro.entitlements; path = affaredoro/affaredoro.entitlements; sourceTree = "<group>"; };
 		2715C5242DF9E16600705A2C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		274DA9822DF888300061DDA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		27AB04812DFB1D580018162B /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		27AB04832DFB25B20018162B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		27C1BC912DFC0F8000D9FA40 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		3045511F31D16BFE4B49EAD4 /* Pods-affaredoro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-affaredoro.release.xcconfig"; path = "Target Support Files/Pods-affaredoro/Pods-affaredoro.release.xcconfig"; sourceTree = "<group>"; };
 		3E6BBCB882C9EFB5B55299B2 /* Pods-affaredoro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-affaredoro.debug.xcconfig"; path = "Target Support Files/Pods-affaredoro/Pods-affaredoro.debug.xcconfig"; sourceTree = "<group>"; };
 		51766D63F80B360AB045A180 /* Pods_affaredoro_affaredoroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_affaredoro_affaredoroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +136,7 @@
 		13B07FAE1A68108700A75B9A /* affaredoro */ = {
 			isa = PBXGroup;
 			children = (
-				27AB04812DFB1D580018162B /* main.jsbundle */,
+				27C1BC912DFC0F8000D9FA40 /* main.jsbundle */,
 				2715C5232DF9DC3100705A2C /* affaredoro.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -294,7 +294,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "affaredoro" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Affaredoro" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -344,7 +344,7 @@
 				4790A896B0404B4FB6CC9568 /* Urbanist Regular.ttf in Resources */,
 				71001C232BDF4A8F8A560955 /* Urbanist SemiBold.ttf in Resources */,
 				349F2B3837674F408E08CA12 /* Urbanist SemiBoldItalic.ttf in Resources */,
-				27AB04822DFB1D640018162B /* main.jsbundle in Resources */,
+				27C1BC922DFC0F8700D9FA40 /* main.jsbundle in Resources */,
 				87A870496C2A47C2BE1E85C7 /* Urbanist Thin.ttf in Resources */,
 				03D87AD946EC4228B793B4A2 /* Urbanist ThinItalic.ttf in Resources */,
 			);
@@ -830,7 +830,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "affaredoro" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Affaredoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
